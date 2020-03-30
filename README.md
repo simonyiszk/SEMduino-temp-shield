@@ -1,5 +1,5 @@
 # SEMduino-temp-shield
-## Install prerequisities
+## Install prerequisites
 ### Linux
 ```
 sudo apt-get install gcc-avr binutils-avr avr-libc
