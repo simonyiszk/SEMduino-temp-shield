@@ -9,5 +9,7 @@ sudo apt-get install avrdude
 
 ## Build/flash
 Build: `make`
+
 Flash: `make flash`
+
 Clean: `make clean`
