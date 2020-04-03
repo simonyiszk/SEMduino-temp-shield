@@ -7,7 +7,7 @@
             "label": "build",
             "type": "shell",
             "command": "make",
-            "problemMatcher": [],
+            "problemMatcher": ["$gcc"],
             "group": {
                 "kind": "build",
                 "isDefault": true
@@ -18,14 +18,14 @@
             "type": "shell",
             "command": "make",
             "args": ["flash"],
-            "problemMatcher": []
+            "problemMatcher": ["$gcc"]
         },
         {
             "label": "clean",
             "type": "shell",
             "command": "make",
             "args": ["clean"],
-            "problemMatcher": []            
+            "problemMatcher": ["$gcc"]            
         }
     ]
 }
