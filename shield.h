@@ -38,5 +38,3 @@
 #define SEG2P _BV(8)
 
 #endif /* COMMONS_H_ */
-
-

@@ -12,9 +12,10 @@
 #                is connected.
 # FUSES ........ Parameters for avrdude to flash the fuses appropriately.
 
+UART_PORT  = /dev/ttyUSB0
 PROJECT    = test
 DEVICE     = atmega328p
-PROGRAMMER = -carduino -P/dev/ttyUSB0 -b115200
+PROGRAMMER = -carduino -P${UART_PORT} -b115200
 
 
 ######################################################################
