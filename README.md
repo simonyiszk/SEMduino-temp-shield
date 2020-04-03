@@ -2,9 +2,7 @@
 ## Install prerequisites
 ### Linux
 ```
-sudo apt-get install gcc-avr binutils-avr avr-libc
-sudo apt-get install gdb-avr
-sudo apt-get install avrdude
+sudo apt-get install gcc-avr binutils-avr avr-libc gdb-avr avrdude
 ```
 
 ## Build/flash
